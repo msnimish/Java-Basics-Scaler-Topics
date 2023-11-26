@@ -12,7 +12,7 @@ public class Car {
         setPrice(10000);
     }
     Car(String modelName, String colorName, int priceValue){
-        // This is the default constructor function
+        // This is not the default constructor function
         System.out.println("Parameterised constructor called");
         model = modelName;
         color = colorName;
